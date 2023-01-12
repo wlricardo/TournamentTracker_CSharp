@@ -3,6 +3,11 @@
     public class PrizeModel
     {
         /// <summary>
+        /// The unique identifier for prize
+        /// </summary>
+        public int Id { get; set; }
+
+        /// <summary>
         /// Indicates the position of the winner
         /// </summary>        
         public int PlaceNumber { get; set; }
