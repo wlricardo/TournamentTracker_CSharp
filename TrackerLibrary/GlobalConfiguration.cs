@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace TrackerLibrary
 {
-    public interface IDataConnection
+    public static class GlobalConfiguration
     {
-        PrizeModel CreatePrize(PrizeModel model);
+        public static List<IDataConnection> Connections { get; private set; }
     }
 }
